@@ -1,99 +1,94 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
     <link rel="stylesheet" href="BlueEyesEngine/BlueEyesEngine.css">
     <link rel="stylesheet" href="style.css">
     <title>BlueEyes Engine</title>
 </head>
-
 <body>
-    <dialog id="dialog">
-        <form method="dialog">
-            <header>
-                <img src="BlueEyesEngine/SVG/Icon.svg">
-                <h2>對話方塊</h2>
-            </header>
-            <article>
-                <p>嗨，我是一個對話方塊</p>
-            </article>
-            <footer>
-                <menu>
-                    <button>好</button>
-                </menu>
-            </footer>
-        </form>
-    </dialog>
-
-    <header>
-        <img src="BlueEyesEngine/SVG/Banner.svg" height="128px" />
-        <p>「藍眼引擎」是一個由鐘柏倫所設計的 CSS 模板</p>
-        <button style="width: 100%;" onclick="location.href='https://github.com/ccpl17/BlueEyesEngine'">
-            GitHub 頁面
-        </button>
-        <button style="width: 100%;" onclick="location.href='https://github.com/ccpl17/BlueEyesEngine/releases'">
-            下載
-        </button>
-    </header>
-
-    <main>
-        <details>
-            <summary>
-                使用
-            </summary>
-            <code>
-                <pre>
+<dialog id="dialog">
+    <form method="dialog" style="width: 256px">
+        <header>
+            <h2>對話方塊</h2>
+        </header>
+        <article style="place-content: center">
+            <p>嗨，我是一個對話方塊</p>
+        </article>
+        <footer>
+            <button>好</button>
+        </footer>
+    </form>
+</dialog>
+<header>
+    <img src="BlueEyesEngine/SVG/Banner.svg" height="128px"/>
+    <p>「藍眼引擎」是一個由鐘柏倫所設計的 CSS 模板</p>
+    <a href="https://github.com/ccpl17/BlueEyesEngine" target="_blank"><button style="width: 100%;">GitHub 頁面</button></a>
+    <a href="https://github.com/ccpl17/BlueEyesEngine/releases" target="_blank"><button style="width: 100%;">下載</button></a>
+</header>
+<main>
+    <details>
+        <summary>
+            使用
+        </summary>
+        <pre>
 &lt;link rel="stylesheet" href="BlueEyesEngine/BlueEyesEngine.css"&gt;
-                </pre>
-            </code>
-        </details>
-        <details>
-            <summary>
-                樣式預覧
-            </summary>
-            <h2>&lt;button&gt;</h2>
-            <button>按鈕</button>
+        </pre>
+    </details>
+    <details>
+        <summary>
+            樣式預覧
+        </summary>
 
-            <h2>&lt;dialog&gt;</h2>
-            <button onclick="dialog.showModal()">打開對話方塊</button>
+        <h2>&lt;button&gt;</h2>
+        <button>按鈕</button>
 
-            <h2>&lt;input type="date"&gt;</h2>
-            <input type="date" />
+        <h2>&lt;dialog&gt;</h2>
+        <button onclick="dialog.showModal()">打開對話方塊</button>
 
-            <h2>&lt;input type="text"&gt;</h2>
-            <input type="text" placeholder="請輸入文字" />
+        <h2>&lt;input type="date"&gt;</h2>
+        <input type="date"/>
 
-            <h2>&lt;input type="number"&gt;</h2>
-            <input type="number" placeholder="請輸入數字" />
+        <h2>&lt;input type="text"&gt;</h2>
+        <input type="text" placeholder="請輸入文字"/>
 
-            <h2>&lt;select&gt;</h2>
-            <select>
-                <option>選項 1</option>
-                <option>選項 2</option>
-                <option>選項 3</option>
-            </select>
-        </details>
-        <details>
-            <summary>
-                版本歷程記錄
-            </summary>
-            <pre>
+        <h2>&lt;input type="number"&gt;</h2>
+        <input type="number" placeholder="請輸入數字"/>
+
+        <h2>&lt;select&gt;</h2>
+        <select>
+            <option>選項 1</option>
+            <option>選項 2</option>
+            <option>選項 3</option>
+        </select>
+
+        <h2>&lt;textarea&gt;</h2>
+        <textarea placeholder="請輸入文字"></textarea>
+    </details>
+    <details>
+        <summary>
+            版本歷程記錄
+        </summary>
+        <pre>
+----------------------------------------------------------
+[2.1.0]                                     2023/03/02
+----------------------------------------------------------
+- 取消 &lt;button&gt; 與 &lt;input&gt; 固定字型大小
+- 細節調整
+
 ----------------------------------------------------------
 [2.0.0]                                     2023/02/20
 ----------------------------------------------------------
 * 首次公開發行
-                </pre>
-        </details>
-    </main>
-
-    <footer>
-        <p>BlueEyes Engine | 版本 2.0.0 (2023/02/20)</p>
-        <p>使用 Chrome/Edge 94 以上版本瀏覧本頁面可達最佳體驗</p>
-        <p>© 2022-2023 鐘柏倫 (Cenlun Chung Po Lun) | CC-BY-NC-SA</p>
-    </footer>
+        </pre>
+    </details>
+</main>
+<footer>
+    <p>BlueEyes Engine | 版本 2.1.0 (2023/03/02)</p>
+    <p>使用 Chrome/Edge 94 以上版本瀏覧本頁面可達最佳體驗</p>
+    <p>© 2022-2023 鐘柏倫 (Cenlun Chung Po Lun) | CC-BY-NC-SA</p>
+</footer>
 </body>
-
 </html>

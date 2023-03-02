@@ -3,7 +3,7 @@
 /*                  BlueEyes Engine                  */
 /*                  Global Variable                  */
 /*                                                   */
-/* Version 2.0.0 (2023/02/20)                        */
+/* Version 2.1.0 (2023/03/02)                        */
 /* https://github.com/ccpl17/BlueEyesEngine          */
 /* © 2022-2023 鐘柏倫 (Cenlun Chung Po Lun)           */
 /* CC-BY-NC-SA                                       */
@@ -67,4 +67,6 @@
   --textarea-placeholder-color: unset;
   --textarea-text-color: var(--neutral-color);
   --textarea-transition: unset;
-}/*# sourceMappingURL=GlobalVariables.css.map */
+}
+
+/*# sourceMappingURL=GlobalVariables.css.map */

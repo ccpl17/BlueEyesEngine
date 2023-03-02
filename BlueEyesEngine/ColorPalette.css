@@ -3,7 +3,7 @@
 /*                  BlueEyes Engine                  */
 /*                  Color Palette                    */
 /*                                                   */
-/* Version 2.0.0 (2023/02/20)                        */
+/* Version 2.1.0 (2023/03/02)                        */
 /* https://github.com/ccpl17/BlueEyesEngine          */
 /* © 2022-2023 鐘柏倫 (Cenlun Chung Po Lun)           */
 /* CC-BY-NC-SA                                       */
@@ -29,4 +29,6 @@
   --neutral-color: #3C3C3C;
   --neutral-color-dark-1: unset;
   --neutral-color-dark-2: unset;
-}/*# sourceMappingURL=ColorPalette.css.map */
+}
+
+/*# sourceMappingURL=ColorPalette.css.map */
